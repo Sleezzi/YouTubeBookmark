@@ -1,0 +1,40 @@
+bookmarkDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2rem;
+    width: 3.5rem;
+}
+
+bookmarkDiv > .bookmarkButton {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.bookmarkContainer {
+    height: 20%;
+    width: 90%;
+    margin: 0 0 15px 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+a.bookmarkA {
+    display: flex;
+    color: unset;
+    text-decoration: none;
+}
+
+a.bookmarkA > .bookmarkThumbnailContainer {
+    width: 25%;
+    height: 90%;
+}
+
+a.bookmarkA > .bookmarkTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}

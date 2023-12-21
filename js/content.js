@@ -1,0 +1,1 @@
+if (localStorage.getItem("bookmark") === undefined || localStorage.getItem("bookmark") === null) localStorage.setItem("bookmark", JSON.stringify({ list: {} }))
